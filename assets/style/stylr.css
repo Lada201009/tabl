@@ -1,0 +1,57 @@
+:root {
+  --color-dark: #dbdbdb;
+  --color-norm: #ececec;
+  --color-light: #f3f3f3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table,th, td{
+  border:1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  background-color: #7887ab;
+  padding: 10px;
+}
+thead{
+  color: var(--color-light);
+}
+thead th:first-child {
+  border-top-left-radius: var(--border-radius);
+  background-color: #123485;
+}
+thead th:last-child {
+  border-top-right-radius: var(--border-radius);
+  background-color: #123485;
+}
+thead th:last-child {
+  border-top-right-radius: var(--border-radius);
+  background-color: #123485;
+}
+thead th:nth-child(2) {
+  background-color: #123485;
+}
+thead th:nth-child(3) {
+  background-color: #123485;
+}
+thead th:nth-child(4) {
+  background-color: #123485;
+}
+tbody tr:nth-child(odd) td:nth-child(odd) {
+  background-color: var(--color-dark);
+}
+tbody tr:nth-child(odd) td:nth-child(even),
+tbody tr:nth-child(even) td:nth-child(odd) {
+  background-color: var(--color-norm);
+}
+tbody tr:nth-child(even) td:nth-child(even) {
+  background-color: var(--color-light);
+}
+tfoot th:nth-child(odd){
+  background-color:aqua;
+}
+tfoot th:nth-child(even){
+  background-color:aqua;
+}
+
+
